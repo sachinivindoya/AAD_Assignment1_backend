@@ -15,10 +15,10 @@
           <element id="module-output" name="AAD_Assignment1_backend" />
         </element>
         <element id="directory" name="lib">
-          <element id="library" level="project" name="Maven: org.eclipse:yasson:2.0.4" />
-          <element id="library" level="project" name="Maven: jakarta.json.bind:jakarta.json.bind-api:2.0.0" />
-          <element id="library" level="project" name="Maven: jakarta.json:jakarta.json-api:2.0.0" />
-          <element id="library" level="project" name="Maven: org.glassfish:jakarta.json:module:2.0.0" />
+          <element id="library" level="project" name="Maven: org.eclipse:yasson:3.0.0" />
+          <element id="library" level="project" name="Maven: jakarta.json.bind:jakarta.json.bind-api:3.0.0" />
+          <element id="library" level="project" name="Maven: jakarta.json:jakarta.json-api:2.1.0" />
+          <element id="library" level="project" name="Maven: org.eclipse.parsson:parsson:1.1.0" />
           <element id="library" level="project" name="Maven: com.mysql:mysql-connector-j:8.0.33" />
           <element id="library" level="project" name="Maven: com.google.protobuf:protobuf-java:3.21.9" />
         </element>
