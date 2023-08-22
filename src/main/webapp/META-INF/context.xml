@@ -1,14 +1,3 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Context path="/">
-    <!-- Define the existing resource for CustomerHandle -->
-    <Resource name="jdbc/CustomerHandle" auth="Container" type="javax.sql.DataSource"
-              maxTotal="10" maxIdle="8" maxWaitMillis="-1"
-              username="root" password="root" driverClassName="com.mysql.cj.jdbc.Driver"
-              url="jdbc:mysql://localhost:3306/POS_SYSTEM"/>
-
-    <!-- Define the new resource for ItemHandle -->
-    <Resource name="jdbc/ItemHandle" auth="Container" type="javax.sql.DataSource"
-              maxTotal="10" maxIdle="8" maxWaitMillis="-1"
-              username="root" password="1234" driverClassName="com.mysql.cj.jdbc.Driver"
-              url="jdbc:mysql://localhost:3306/POS_SYSTEM"/>
 </Context>
