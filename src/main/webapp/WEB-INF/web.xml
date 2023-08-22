@@ -7,7 +7,7 @@
 
     <resource-ref>
         <description>DB Connection</description>
-        <res-ref-name>jdbc/item</res-ref-name>
+        <res-ref-name>jdbc/CustomerHandle</res-ref-name>
         <res-type>javax.sql.DataSource</res-type>
         <res-auth>Container</res-auth>
     </resource-ref>
@@ -21,7 +21,7 @@
     </context-param>
     <context-param>
         <param-name>db-pw</param-name>
-        <param-value>1234</param-value>
+        <param-value>root</param-value>
     </context-param>
     <context-param>
         <param-name>mysql-driver</param-name>
