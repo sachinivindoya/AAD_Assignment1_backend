@@ -27,5 +27,30 @@
         <param-name>mysql-driver</param-name>
         <param-value>com.mysql.cj.jdbc.Driver</param-value>
     </context-param>
+    <filter>
+        <filter-name>Security</filter-name>
+        <filter-class>com.example.aad_assignment1_backend.filters.Security</filter-class>
+    </filter>
+    <filter>
+        <filter-name>Log</filter-name>
+        <filter-class>com.example.aad_assignment1_backend.filters.Log</filter-class>
+    </filter>
+    <filter>
+        <filter-name>CORSFilter</filter-name>
+        <filter-class>com.example.aad_assignment1_backend.filters.CORSFilter</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>Security</filter-name>
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>
+    <filter-mapping>
+        <filter-name>Log</filter-name>
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>
+    <filter-mapping>
+        <filter-name>CORSFilter</filter-name>
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>
+
 
 </web-app>
